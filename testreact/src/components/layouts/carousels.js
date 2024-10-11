@@ -1,8 +1,9 @@
-    import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/Carousel';
+import './carousels.css'
 
     function UncontrolledExample() {
     return (
-        <Carousel style={{width: 'auto', height: '800px', overflow: 'hidden', backgroundColor: '#abe0f5'}}>
+        <Carousel style={{width: 'auto', height: '800px', overflow: 'hidden', backgroundColor: '#b2a73e'}}>
         <Carousel.Item style={{ height: '800px' }}>
             
             <img
@@ -12,7 +13,7 @@
                     style={{ objectFit: 'contain', width: '100%', height: '100%' }}
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className="custom-caption">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
