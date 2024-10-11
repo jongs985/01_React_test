@@ -14,9 +14,10 @@ import './carousels.css'
             />
 
             <Carousel.Caption className="custom-caption">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>대한민국 환경보호 웹사이트</p>
+            <p>마루바람에 오신것을 환영합니다.</p>
             </Carousel.Caption>
+
         </Carousel.Item>
         <Carousel.Item style={{ height: '800px' }}>
             
