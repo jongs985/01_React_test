@@ -3,7 +3,7 @@ import './carousels.css'
 
     function UncontrolledExample() {
     return (
-        <Carousel style={{width: 'auto', height: '800px', overflow: 'hidden', backgroundColor: '#b2a73e'}}>
+        <Carousel style={{width: 'auto', height: '800px', overflow: 'hidden', backgroundColor: '#d4e3c8'}}>
         <Carousel.Item style={{ height: '800px' }}>
             
             <img
@@ -14,8 +14,9 @@ import './carousels.css'
             />
 
             <Carousel.Caption className="custom-caption">
-            <p>대한민국 환경보호 웹사이트</p>
-            <p>마루바람에 오신것을 환영합니다.</p>
+            <p>대한민국 환경보호 웹사이트 <br/>
+            마루바람에 오신것을 환영합니다.
+            </p>
             </Carousel.Caption>
 
         </Carousel.Item>
@@ -28,9 +29,8 @@ import './carousels.css'
                     style={{ objectFit: 'contain', width: '100%', height: '100%' }}
                 />
                 
-            <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <Carousel.Caption className="custom-caption">
+            <p>마루바람 두번째 슬라이드 입니다.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{ height: '800px' }}>
@@ -42,10 +42,9 @@ import './carousels.css'
                     style={{ objectFit: 'contain', width: '100%', height: '100%' }}
                 />
             
-            <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <Carousel.Caption className="custom-caption">
             <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                마루바람 세번째 슬라이드 입니다.
             </p>
             </Carousel.Caption>
         </Carousel.Item>
